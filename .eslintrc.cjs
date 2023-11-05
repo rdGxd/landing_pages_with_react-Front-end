@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  env: { browser: true, es2021: true },
+  env: { browser: true, es2023: true, jest: true, node: true },
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
@@ -11,7 +11,7 @@ module.exports = {
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
   settings: { react: { version: "detect" } },
-  plugins: ["react-refresh"],
+  plugins: ["react-refresh", "prettier", "react-hooks"],
   rules: {
     "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
   },
