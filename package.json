@@ -17,6 +17,8 @@
     "styled-components": "^6.1.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.0.0",
     "@types/react": "^18.2.35",
     "@types/react-dom": "^18.2.14",
     "@vitejs/plugin-react-swc": "^3.4.1",
@@ -26,11 +28,9 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
-    "prettier": "^3.0.3",
-    "vite": "^4.5.0",
     "jest-styled-components": "^7.2.0",
-    "@testing-library/jest-dom": "^6.1.4",
-    "@testing-library/react": "^14.0.0"
+    "prettier": "^3.0.3",
+    "vite": "^4.5.0"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -42,5 +42,11 @@
       "!<rootDir>/src/templates/**/*.{js,jsx,ts,tsx}",
       "!<rootDir>/node_modules/"
     ]
+  },
+  "pnpm": {
+    "overrides": {
+      "nth-check@<2.0.1": ">=2.0.1",
+      "postcss@<8.4.31": ">=8.4.31"
+    }
   }
 }
