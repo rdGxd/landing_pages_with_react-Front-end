@@ -9,7 +9,7 @@ const config = {
     "@storybook/addon-interactions",
   ],
   core: {
-    builder: "@storybook/builder-vite", // 👈 The builder enabled here.
+    builder: "@storybook/builder-vite",
   },
   framework: {
     name: "@storybook/react-webpack5",
