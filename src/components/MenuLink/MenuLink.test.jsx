@@ -18,12 +18,12 @@ describe("<MenuLink />", () => {
     expect(screen.getByRole("link", { name: "Children" })).toHaveAttribute("target", "_blank");
   });
 
-  it("should render a link", () => {
-    renderTheme(
+  it("should match snapshot", () => {
+    const { container } = renderTheme(
       <MenuLink link="http://localhost" newTab={false}>
         Children
       </MenuLink>,
     );
-    expect(screen.getByRole("link", { name: "Children" })).toMatchSnapshot();
+    expect(container.firstChild).toMatchSnapshot();
   });
 });

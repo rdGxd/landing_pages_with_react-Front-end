@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<MenuLink /> should render a link 1`] = `
+exports[`<MenuLink /> should match snapshot 1`] = `
 .c0 {
   display: block;
   text-decoration: none;
