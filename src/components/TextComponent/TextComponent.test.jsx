@@ -11,7 +11,7 @@ describe("<TextComponent />", () => {
 
   it("should render correct paragraph sizes", () => {
     renderTheme(<TextComponent>texto</TextComponent>);
-    const paragraph = screen.getByText("texto");
+    const paragraph = screen.getByText(/texto/i);
 
     expect(paragraph).toHaveStyle({
       "font-size": theme.font.sizes.medium,
