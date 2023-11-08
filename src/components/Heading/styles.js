@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-const titleSizes = {
+const titleSize = {
   small: (theme) => css`
     font-size: ${theme.font.sizes.medium};
   `,
@@ -12,7 +12,7 @@ const titleSizes = {
   `,
   huge: (theme) => css`
     font-size: ${theme.font.sizes.xhuge};
-    ${mediaFont(theme)}
+    ${mediaFont(theme)};
   `,
 };
 
@@ -29,7 +29,7 @@ const titleCase = (uppercase) => css`
 export const Title = styled.h1`
   ${({ theme, $colorDark, size, $uppercase }) => css`
     color: ${$colorDark ? theme.colors.primaryColor : theme.colors.white};
-    ${titleSizes[size](theme)}
-    ${titleCase($uppercase)}
+    ${titleSize[size](theme)};
+    ${titleCase($uppercase)};
   `}
 `;
