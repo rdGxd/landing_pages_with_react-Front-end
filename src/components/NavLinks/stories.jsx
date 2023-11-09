@@ -7,9 +7,7 @@ export default {
   args: {
     links: links,
   },
-  argTypes: {
-    links: { type: "array" },
-  },
+  argTypes: {},
 };
 
 export const Template = (args) => {
