@@ -17,7 +17,7 @@ export default {
   },
   argTypes: {
     children: { type: "" },
-    background: { type: "boolean" },
+    $background: { type: "boolean" },
   },
 };
 

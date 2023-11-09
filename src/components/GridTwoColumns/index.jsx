@@ -6,10 +6,12 @@ import * as Styled from "./styles";
 
 export const GridTwoColum = ({ title, text, srcImg, background = false }) => {
   return (
-    <SectionBackground $background={background}>
-      <Styled.Container $background={background}>
+    <SectionBackground background={background}>
+      <Styled.Container>
         <Styled.TextContainer>
-          <Heading uppercase>{title}</Heading>
+          <Heading uppercase colorDark={!background}>
+            {title}
+          </Heading>
           <TextComponent>{text}</TextComponent>
         </Styled.TextContainer>
         <Styled.ImageContainer>
