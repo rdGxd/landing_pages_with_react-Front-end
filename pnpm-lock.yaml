@@ -12,6 +12,9 @@ dependencies:
   '@storybook/builder-vite':
     specifier: ^7.5.3
     version: 7.5.3(typescript@5.2.2)(vite@4.5.0)
+  '@styled-icons/material-outlined':
+    specifier: ^10.47.0
+    version: 10.47.0(react@18.2.0)(styled-components@6.1.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -4143,6 +4146,29 @@ packages:
       '@types/babel__core': 7.20.3
       '@types/express': 4.17.20
       file-system-cache: 2.3.0
+
+  /@styled-icons/material-outlined@10.47.0(react@18.2.0)(styled-components@6.1.0):
+    resolution: {integrity: sha512-/QeDSGXlfRoIsgx4g4Hb//xhsucD4mJJsNPk/e1XzckxkNG+YHCIjbAHzDwxwNfSCJYcTDcOp2SZcoS7iyNGlw==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.23.2
+      '@styled-icons/styled-icon': 10.7.0(react@18.2.0)(styled-components@6.1.0)
+      react: 18.2.0
+      styled-components: 6.1.0(react-dom@18.2.0)(react@18.2.0)
+    dev: false
+
+  /@styled-icons/styled-icon@10.7.0(react@18.2.0)(styled-components@6.1.0):
+    resolution: {integrity: sha512-SCrhCfRyoY8DY7gUkpz+B0RqUg/n1Zaqrr2+YKmK/AyeNfCcoHuP4R9N4H0p/NA1l7PTU10ZkAWSLi68phnAjw==}
+    peerDependencies:
+      react: '*'
+      styled-components: '>=4.1.0 <6'
+    dependencies:
+      '@babel/runtime': 7.23.2
+      react: 18.2.0
+      styled-components: 6.1.0(react-dom@18.2.0)(react@18.2.0)
+    dev: false
 
   /@surma/rollup-plugin-off-main-thread@2.2.3:
     resolution: {integrity: sha512-lR8q/9W7hZpMWweNiAKU7NQerBnzQQLvi8qnTDU/fxItPhtZVMbPV3lbCwjhIlNBe9Bbr5V+KHshvWmVSG9cxQ==}
