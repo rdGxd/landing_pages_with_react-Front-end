@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 export const Container = styled.a`
   ${({ theme }) => css`
-    display: block;
+    display: inline-flex;
     text-decoration: none;
     font-size: ${theme.font.sizes.small};
     padding: ${theme.spacings.small};
@@ -23,6 +23,10 @@ export const Container = styled.a`
     &:hover::after {
       left: 25%;
       width: 50%;
+    }
+
+    @media ${theme.media.lteMedium} {
+      display: flex;
     }
   `}
 `;
