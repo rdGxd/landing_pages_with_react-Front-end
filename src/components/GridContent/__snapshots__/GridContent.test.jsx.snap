@@ -144,7 +144,7 @@ exports[`<GridContent /> should render grid content 1`] = `
 </div>
 `;
 
-exports[`<GridContent /> should render grid content 2`] = `
+exports[`<GridContent /> should render with background undefined 1`] = `
 .c3 {
   color: #0A1128;
   font-size: 6.4rem;
