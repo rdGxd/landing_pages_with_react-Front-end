@@ -150,10 +150,10 @@ exports[`<Menu /> should not render links 1`] = `
       />
     </svg>
   </button>
-  <div
+  <header
     class="c2"
   >
-    <div
+    <article
       class="c3 c4"
     >
       <div
@@ -174,8 +174,8 @@ exports[`<Menu /> should not render links 1`] = `
           class="c9"
         />
       </div>
-    </div>
-  </div>
+    </article>
+  </header>
 </div>
 `;
 
@@ -360,10 +360,10 @@ exports[`<Menu /> should render Logo and Main menu nav 1`] = `
       />
     </svg>
   </button>
-  <div
+  <header
     class="c2"
   >
-    <div
+    <article
       class="c3 c4"
     >
       <div
@@ -455,7 +455,7 @@ exports[`<Menu /> should render Logo and Main menu nav 1`] = `
           </a>
         </nav>
       </div>
-    </div>
-  </div>
+    </article>
+  </header>
 </div>
 `;

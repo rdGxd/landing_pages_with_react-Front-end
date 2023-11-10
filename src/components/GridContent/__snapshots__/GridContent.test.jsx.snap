@@ -43,13 +43,13 @@ exports[`<GridContent /> should render grid content 1`] = `
 }
 
 <div>
-  <div
+  <main
     class="c0"
   >
-    <div
+    <article
       class="c1"
     >
-      <div
+      <section
         class="c2"
       >
         <h2
@@ -138,9 +138,9 @@ exports[`<GridContent /> should render grid content 1`] = `
 
           </div>
         </div>
-      </div>
-    </div>
-  </div>
+      </section>
+    </article>
+  </main>
 </div>
 `;
 
@@ -187,13 +187,13 @@ exports[`<GridContent /> should render with background undefined 1`] = `
 }
 
 <div>
-  <div
+  <main
     class="c0"
   >
-    <div
+    <article
       class="c1"
     >
-      <div
+      <section
         class="c2"
       >
         <h2
@@ -282,8 +282,8 @@ exports[`<GridContent /> should render with background undefined 1`] = `
 
           </div>
         </div>
-      </div>
-    </div>
-  </div>
+      </section>
+    </article>
+  </main>
 </div>
 `;

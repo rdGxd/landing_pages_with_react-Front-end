@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 import { Container as TextComponent } from "../TextComponent/styles";
 
-export const Container = styled.div`
+export const Container = styled.section`
   ${({ theme }) => css`
     > ${TextComponent} {
       margin-bottom: ${theme.spacings.xhuge};

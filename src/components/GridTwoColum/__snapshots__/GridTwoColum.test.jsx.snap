@@ -57,13 +57,13 @@ exports[`<GridTwoColumn /> should render two column grid 1`] = `
 }
 
 <div>
-  <div
+  <main
     class="c0"
   >
-    <div
+    <article
       class="c1"
     >
-      <div
+      <section
         class="c2"
       >
         <div
@@ -89,9 +89,9 @@ exports[`<GridTwoColumn /> should render two column grid 1`] = `
             src="assets/images/javascript.svg"
           />
         </div>
-      </div>
-    </div>
-  </div>
+      </section>
+    </article>
+  </main>
 </div>
 `;
 
@@ -152,13 +152,13 @@ exports[`<GridTwoColumn /> should render two column grid 2`] = `
 }
 
 <div>
-  <div
+  <main
     class="c0"
   >
-    <div
+    <article
       class="c1"
     >
-      <div
+      <section
         class="c2"
       >
         <div
@@ -184,8 +184,8 @@ exports[`<GridTwoColumn /> should render two column grid 2`] = `
             src="assets/images/javascript.svg"
           />
         </div>
-      </div>
-    </div>
-  </div>
+      </section>
+    </article>
+  </main>
 </div>
 `;
