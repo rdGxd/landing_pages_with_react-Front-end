@@ -1,12 +1,11 @@
-import { Heading } from "../../components/Heading/index.jsx";
+import { Base } from "../Base/index.jsx";
+import { mockBase } from "../Base/stories.jsx";
 import * as Styled from "./styles.js";
 
 export const Home = () => {
   return (
-    <div className="Home">
-      <Styled.Wrapper>
-        <Heading>Hello World!</Heading>
-      </Styled.Wrapper>
-    </div>
+    <Styled.Wrapper>
+      <Base {...mockBase} />
+    </Styled.Wrapper>
   );
 };

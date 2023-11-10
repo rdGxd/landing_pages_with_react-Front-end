@@ -18,7 +18,7 @@ export const Container = styled.header`
     width: 100%;
     height: 100%;
     border-bottom: ${theme.colors.mediumGray};
-    background: ${theme.colors.whites};
+    background: ${theme.colors.white};
     transition: all 300ms ease-in-out;
 
     > ${SectionContainer} {
