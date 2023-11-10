@@ -9,12 +9,12 @@ exports[`<SectionContainer/> should render content 1`] = `
 }
 
 <div>
-  <article
+  <div
     class="c0"
   >
     <h1>
       Children
     </h1>
-  </article>
+  </div>
 </div>
 `;

@@ -57,10 +57,10 @@ exports[`<GridTwoColumn /> should render two column grid 1`] = `
 }
 
 <div>
-  <main
+  <div
     class="c0"
   >
-    <article
+    <div
       class="c1"
     >
       <section
@@ -90,8 +90,8 @@ exports[`<GridTwoColumn /> should render two column grid 1`] = `
           />
         </div>
       </section>
-    </article>
-  </main>
+    </div>
+  </div>
 </div>
 `;
 
@@ -152,10 +152,10 @@ exports[`<GridTwoColumn /> should render two column grid 2`] = `
 }
 
 <div>
-  <main
+  <div
     class="c0"
   >
-    <article
+    <div
       class="c1"
     >
       <section
@@ -185,7 +185,7 @@ exports[`<GridTwoColumn /> should render two column grid 2`] = `
           />
         </div>
       </section>
-    </article>
-  </main>
+    </div>
+  </div>
 </div>
 `;

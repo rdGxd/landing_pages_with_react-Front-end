@@ -19,17 +19,17 @@ exports[`<SectionBackground/> should render with background dark 1`] = `
 }
 
 <div>
-  <main
+  <div
     class="c0"
   >
-    <article
+    <div
       class="c1"
     >
       <h1>
         Children
       </h1>
-    </article>
-  </main>
+    </div>
+  </div>
 </div>
 `;
 
@@ -50,16 +50,16 @@ exports[`<SectionBackground/> should render with background light 1`] = `
 }
 
 <div>
-  <main
+  <div
     class="c0"
   >
-    <article
+    <div
       class="c1"
     >
       <h1>
         Children
       </h1>
-    </article>
-  </main>
+    </div>
+  </div>
 </div>
 `;
