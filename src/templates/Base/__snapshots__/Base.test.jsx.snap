@@ -862,7 +862,7 @@ exports[`<Base /> should render with Base 1`] = `
 </div>
 `;
 
-exports[`<Base /> should render with Base 2`] = `
+exports[`<Base /> should render with links undefined 1`] = `
 .c4 {
   max-width: 120rem;
   margin: 0 auto;
