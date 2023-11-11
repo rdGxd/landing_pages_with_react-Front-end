@@ -1,8 +1,8 @@
 import { GridText } from "../../components/GridText";
 import gridMock from "../../components/GridText/mock";
-import mock from "./mock";
+import linksMock from "../../components/NavLinks/mock";
 
-export const mockBase = {
+export const mock = {
   children: (
     <>
       <GridText {...gridMock} background />
@@ -13,5 +13,10 @@ export const mockBase = {
       <GridText {...gridMock} />
     </>
   ),
-  ...mock,
+  links: linksMock,
+  logoData: {
+    text: "Logo",
+    link: "#",
+  },
+  footerHtml: "<p>Teste de footer</p>",
 };
