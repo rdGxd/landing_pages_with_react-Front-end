@@ -13,7 +13,6 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@storybook/builder-vite": "^7.5.3",
     "@styled-icons/material-outlined": "^10.47.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -21,6 +20,7 @@
     "styled-components": "^6.1.0"
   },
   "devDependencies": {
+    "@storybook/builder-vite": "^7.5.3",
     "@storybook/addon-essentials": "7.5.3",
     "@storybook/addon-interactions": "7.5.3",
     "@storybook/addon-links": "7.5.3",
