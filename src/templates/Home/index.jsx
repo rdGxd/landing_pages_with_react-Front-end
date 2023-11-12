@@ -14,9 +14,7 @@ const Home = () => {
   useEffect(() => {
     const load = async () => {
       try {
-        const data = await fetch(
-          "http://localhost:1337/api/pages/?filters=[slug]=landing-page&populate[sections][populate]=*",
-        );
+        const data = await fetch("http://localhost:1337/api/pages/?populate=deep");
         const json = await data.json();
         const pageData = mapData(json.data);
 
