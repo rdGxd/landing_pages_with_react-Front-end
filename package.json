@@ -16,16 +16,17 @@
     "@styled-icons/material-outlined": "^10.47.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0",
     "react-scripts": "^5.0.1",
     "styled-components": "^6.1.0"
   },
   "devDependencies": {
-    "@storybook/builder-vite": "^7.5.3",
     "@storybook/addon-essentials": "7.5.3",
     "@storybook/addon-interactions": "7.5.3",
     "@storybook/addon-links": "7.5.3",
     "@storybook/addon-onboarding": "1.0.8",
     "@storybook/blocks": "7.5.3",
+    "@storybook/builder-vite": "^7.5.3",
     "@storybook/preset-create-react-app": "7.5.3",
     "@storybook/react": "7.5.3",
     "@storybook/react-webpack5": "7.5.3",

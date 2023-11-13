@@ -45,6 +45,7 @@ exports[`<GridContent /> should render grid content 1`] = `
 <div>
   <div
     class="c0"
+    id=""
   >
     <div
       class="c1"
@@ -189,6 +190,7 @@ exports[`<GridContent /> should render with background undefined 1`] = `
 <div>
   <div
     class="c0"
+    id=""
   >
     <div
       class="c1"

@@ -1,16 +1,16 @@
-import { GridTwoColum } from ".";
+import { GridTwoColumns } from ".";
 import { renderTheme } from "../../styles/render-theme";
 
 import mock from "./mock";
 
 describe("<GridTwoColumns />", () => {
   it("should render two column grid", () => {
-    const { container } = renderTheme(<GridTwoColum {...mock} />);
+    const { container } = renderTheme(<GridTwoColumns {...mock} />);
     expect(container).toMatchSnapshot();
   });
 
   it("should render two column grid", () => {
-    const { container } = renderTheme(<GridTwoColum {...mock} background={undefined} />);
+    const { container } = renderTheme(<GridTwoColumns {...mock} background={undefined} />);
     expect(container).toMatchSnapshot();
   });
 });
