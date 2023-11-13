@@ -15,12 +15,12 @@ const Home = () => {
   const location = useLocation();
 
   useEffect(() => {
-    // const pathname = location.pathname.replace(/[^A-Za-z0-9]/gi, "");
-    // const slug = pathname ? pathname : config.defaultSlug;
+    const pathname = location.pathname.replace(/[^A-Za-z0-9]/gi, "");
+    const slug = pathname ? pathname : config.defaultSlug;
 
     const load = async () => {
       try {
-        const data = await fetch(config.url);
+        const data = await fetch(`${config.url}${slug}`);
         const json = await data.json();
         const pageData = mapData(json.data);
         setResponse(pageData[0]);
