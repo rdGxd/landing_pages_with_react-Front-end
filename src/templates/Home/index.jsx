@@ -3,7 +3,7 @@ import { mapData } from "../../api/map-data.js";
 import { GridContent } from "../../components/GridContent";
 import { GridImage } from "../../components/GridImage";
 import { GridText } from "../../components/GridText";
-import { GridTwoColum } from "../../components/GridTwoColum";
+import { GridTwoColumns } from "../../components/GridTwoColumns";
 import { Base } from "../Base/index.jsx";
 import { Loading } from "../Loading/index.jsx";
 import { PageNotFound } from "../PageNotFound/index.jsx";
@@ -44,7 +44,7 @@ const Home = () => {
         const { component } = section;
         const key = `${slug}-${index}`;
 
-        if (component === "section.section-two-columns") return <GridTwoColum {...section} key={key} />;
+        if (component === "section.section-two-columns") return <GridTwoColumns {...section} key={key} />;
 
         if (component === "section.section-content") return <GridContent {...section} key={key} />;
 
