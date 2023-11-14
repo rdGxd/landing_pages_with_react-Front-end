@@ -5,7 +5,6 @@ import { GridContent } from "../../components/GridContent";
 import { GridImage } from "../../components/GridImage";
 import { GridText } from "../../components/GridText";
 import { GridTwoColumns } from "../../components/GridTwoColumns";
-import config from "../../config";
 import { Base } from "../Base/index.jsx";
 import { Loading } from "../Loading/index.jsx";
 import { PageNotFound } from "../PageNotFound/index.jsx";
@@ -16,11 +15,11 @@ const Home = () => {
 
   useEffect(() => {
     const pathname = location.pathname.replace(/[^A-Za-z0-9]/gi, "");
-    const slug = pathname ? pathname : config.defaultSlug;
+    const slug = pathname ? pathname : `${import.meta.env.VITE_defaultSlug}`;
 
     const load = async () => {
       try {
-        const data = await fetch(`${config.url}${slug}`);
+        const data = await fetch(`${import.meta.env.VITE_BASE_URL}${slug}`);
         const json = await data.json();
         const pageData = mapData(json.data);
         setResponse(pageData[0]);
@@ -34,15 +33,15 @@ const Home = () => {
 
   useEffect(() => {
     if (response === undefined) {
-      document.title = `Página não encontrada | ${config.siteName}`;
+      document.title = `Página não encontrada | ${import.meta.env.VITE_siteName}`;
     }
 
     if (response && !response.slug) {
-      document.title = `Carregando... | ${config.siteName} `;
+      document.title = `Carregando... |  ${import.meta.env.VITE_siteName} `;
     }
 
     if (response && response.title) {
-      document.title = `${response.title} | ${config.siteName}`;
+      document.title = `${response.title} |  ${import.meta.env.VITE_siteName}`;
     }
   }, [response]);
 
