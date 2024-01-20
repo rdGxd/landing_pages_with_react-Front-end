@@ -48,7 +48,7 @@
     "prettier": "^3.0.3",
     "prop-types": "15.8.1",
     "storybook": "7.5.3",
-    "vite": "^4.5.1",
+    "vite": "^4.5.2",
     "webpack": "5.89.0"
   },
   "jest": {
